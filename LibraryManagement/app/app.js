@@ -28,11 +28,11 @@ app.config(function ($routeProvider) {
         controller: 'issueBookController'
     });
 
-    $routeProvider.when('/home', {
-        controller: 'homeController',
-        templateUrl: 'app/home/home.html'
+    //$routeProvider.when('/home', {
+    //    controller: 'homeController',
+    //    templateUrl: 'app/home/home.html'
 
-    });
+    //});
 
 
     $routeProvider.when('/issueBookDetails', {
@@ -43,7 +43,7 @@ app.config(function ($routeProvider) {
     
 
     $routeProvider.otherwise({
-        redirectTo: "/home",
+        redirectTo: "/userDetails",
     });
 
 });
