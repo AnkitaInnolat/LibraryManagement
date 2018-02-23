@@ -1,5 +1,4 @@
-﻿/// <reference path="IssuedBookList/issuedBookList.html" />
-var app = angular.module('LibraryApp', ['ngRoute','LocalStorageModule']);
+﻿var app = angular.module('LibraryApp', ['ngRoute','LocalStorageModule']);
 
 
 app.config(function ($routeProvider) {
@@ -25,6 +24,11 @@ app.config(function ($routeProvider) {
 
     $routeProvider.when('/issueBook', {
         templateUrl: 'app/IssueDetails/IssueBook.html',
+        controller: 'issueBookController'
+    });
+
+    $routeProvider.when('/thanku', {
+        templateUrl: 'app/thankuPage/ThankuPage.html',
         controller: 'issueBookController'
     });
 

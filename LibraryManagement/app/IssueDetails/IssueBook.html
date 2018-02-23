@@ -5,15 +5,15 @@
             <div>
                 <div class="col-lg-6">
                     <label for="UserName">UserName</label>
-                    <select name="UserId" ng-model="IssueBook.UserId">
-                        <option value={{User.UserId}} ng-repeat="User in Users" data-ng-model="IssueBook.UserName">{{User.UserName}}</option>
+                    <select name="UserId" ng-model="IssueBook.UserId"  ng-change="checkIssueLimit(IssueBook.UserId)">
+                        <option value='{{User.UserId}}' ng-repeat="User in Users" data-ng-model="IssueBook.UserName">{{User.UserName}}</option>
                     </select><br>
                   
                 </div>
                 <div class="col-lg-6">
                     <label for="BookName">BookName</label>
                     <select name="BookId" ng-model="bookData">
-                        <option value='{{Book.BookId}}|{{Book.Rent}}' ng-repeat="Book in Books">{{Book.BookName}}</option>
+                        <option value='{{Book.BookId}}|{{Book.Rent}}|{{Book.BookName}}' ng-repeat="Book in Books">{{Book.BookName}}</option>
                     </select><br>
                 </div>
             </div>
@@ -25,9 +25,24 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="ReturnDate">Date of Return</label>
-                    <input type="date" class="form-control" name="ReturnDate" placeholder="Return Date" id="ReturnDate" data-ng-model="IssueBook.ReturnDate" data-ng-change="calculateRent(IssueBook,bookData)" />
+                    <input type="date" class="form-control" name="ReturnDate" placeholder="Return Date" id="ReturnDate" 
+                           data-ng-model="IssueBook.ReturnDate" data-ng-change="calculateRent(IssueBook,bookData)" />
                 </div>
                              
+            </div>
+                  <div>
+                <div class="col-lg-6">
+                    <label for="ActiveBooksIssued">Active Books Issued</label>
+                    <input type="number" class="form-control" max="AddUser.TyPeofUser" min="0" name="Quantity" placeholder="Active Books Issued"
+                            id="ActiveBooksIssued" data-ng-model="AddUser.ActiveBooksIssued" value="{{ActiveBooks}}"
+                            ng-disabled="IssueBook.ReturnDate"/>
+                </div>
+                <div class="col-lg-6">
+                    <label for="BooksLeft">Books Left to be issued</label>
+                    <input type="number" class="form-control" name="BooksLeft" placeholder="Books Left to be issued" id="BooksLeft" 
+                           data-ng-model="AddUser.BooksLeft" value="{{BooksLeft}}"
+                            ng-disabled="IssueBook.ReturnDate"/>
+                </div>
             </div>
             <div>
                 <div class="col-lg-6 col-lg-offset-3">

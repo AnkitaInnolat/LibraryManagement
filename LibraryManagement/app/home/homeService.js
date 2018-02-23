@@ -36,7 +36,13 @@
         return $http.get("http://localhost/LibraryManagement.api//odata/Issues?$expand=Book" + filter);
     }
 
+    homefactory.updateUser = function (model) {
+        return $http.put("http://localhost/LibraryManagement.api//odata/Users("+model.UserId+")", model);
+    }
 
+    homefactory.updateBook = function (model) {
+        return $http.put("http://localhost/LibraryManagement.api//odata/Books(" + model.BookId + ")", model);
+    }
    
     return homefactory;
 

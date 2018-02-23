@@ -13,11 +13,9 @@
             "Price": AddBook.Price,
             "Quantity": AddBook.Quantity
         };
-   
-   
 
     homeService.addBook($scope.bookDetails).then(function (res) {
-       
+        $location.path("/thanku");
     })
     }
 

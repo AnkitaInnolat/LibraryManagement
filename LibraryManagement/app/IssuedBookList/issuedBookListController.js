@@ -30,7 +30,6 @@
                     var count1 = count++;
                     $scope.issuedBooks[count1].UserId = $scope.UserName;
                     $scope.issuedBooks[count1].BookId = $scope.BookName;
-                    console.log($scope.BookName + "---------------------------" + $scope.UserName);
                 });
 
             })

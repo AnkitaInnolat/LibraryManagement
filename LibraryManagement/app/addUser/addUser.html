@@ -18,16 +18,18 @@
             </div>
             <div>
                 <div class="col-lg-6">
-                    <label for="ActiveBooksIssued">Active Books Issued</label>
-                    <input type="number" class="form-control" max="AddUser.TyPeofUser" min="0" name="Quantity" placeholder="Active Books Issued" id="ActiveBooksIssued" data-ng-model="AddUser.ActiveBooksIssued"/>
+                    <label for="Max Number of Books">Max book to be Issued</label>
+                    <input type="number" min="0" class="form-control" value="{{AddUser.TypeOfUser}}" 
+                           name="maxBook" id="maxBook" data-ng-model="AddUser.BooksLeft" ng-disabled="AddUser.TypeOfUser"/>
                 </div>
+
                 <div class="col-lg-6">
-                    <label for="BooksLeft">Books Left to be issued</label>
-                    <input type="number" class="form-control" name="BooksLeft" placeholder="Books Left to be issued" id="BooksLeft" value="{{AddUser.TypeOfUser-AddUser.ActiveBooksIssued}}" data-ng-model="AddUser.BooksLeft"/>
+                    <label for="PhoneNumber">PhoneNumber</label><br />
+                    <input type="number" class="form-control" name="phoneNo" data-ng-model="AddUser.PhoneNumber" />
                 </div>
             </div>
             <div>
-                <div class="col-lg-6">
+                <div class="col-lg-12 text-center">
                     <br />
                     <label for="IsActive">IsActive</label><br />
                     <label class="radio-inline">
@@ -36,10 +38,6 @@
                     <label class="radio-inline">
                         <input type="radio" name="optradio" data-ng-model="AddUser.IsActive" value="false">No
                     </label>
-                </div>
-                <div class="col-lg-6">
-                    <label for="PhoneNumber">PhoneNumber</label><br />
-                    <input type="number" class="form-control" name="phoneNo" data-ng-model="AddUser.PhoneNumber" />
                 </div>
             </div>
             <br />

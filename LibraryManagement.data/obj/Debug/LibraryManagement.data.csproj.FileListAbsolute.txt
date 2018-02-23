@@ -7,4 +7,3 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\Entity
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\EntityFramework.SqlServer.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.pdb
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.csprojResolveAssemblyReference.cache

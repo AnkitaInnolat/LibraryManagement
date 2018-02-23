@@ -30,6 +30,8 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Asp
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.AspNet.Identity.Owin.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.Edm.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.OData.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owin.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owin.Security.Cookies.dll
@@ -43,8 +45,10 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Web
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Newtonsoft.Json.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Owin.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Net.Http.Formatting.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Spatial.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Helpers.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.OData.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.Owin.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.WebHost.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Mvc.dll
@@ -62,6 +66,10 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.AI.
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.AI.WindowsServer.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.ApplicationInsights.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.Edm.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.OData.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Spatial.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.OData.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Newtonsoft.Json.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Net.Http.Formatting.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Helpers.xml
@@ -89,17 +97,6 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owi
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.Owin.xml
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.csprojResolveAssemblyReference.cache
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.dll
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.pdb
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.Edm.dll
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.OData.dll
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Spatial.dll
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.OData.dll
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.Edm.xml
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\Microsoft.Data.OData.xml
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Spatial.xml
-E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\System.Web.Http.OData.xml
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\de\Microsoft.Data.Edm.resources.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\es\Microsoft.Data.Edm.resources.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\fr\Microsoft.Data.Edm.resources.dll
@@ -127,3 +124,6 @@ E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\ko\System.Spa
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\ru\System.Spatial.resources.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\zh-Hans\System.Spatial.resources.dll
 E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\bin\zh-Hant\System.Spatial.resources.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.csprojResolveAssemblyReference.cache
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.Api\obj\Debug\LibraryManagement.Api.pdb
