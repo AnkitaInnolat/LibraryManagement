@@ -17,7 +17,7 @@
                 <th>BooksLeft</th>
                 <th>IsActive</th>
             </tr>
-            <tr data-ng-repeat="User in Users">
+            <tr data-ng-repeat="User in Users|filter : userSearch">
                 <td>{{User.UserId}}</td>
                 <td>{{User.UserName}}</td>
                 <td>{{User.Address}}</td>

@@ -107,6 +107,8 @@
     <Content Include="app\home\home.html" />
     <Content Include="app\home\homeController.js" />
     <Content Include="app\home\homeService.js" />
+    <Content Include="app\IssuedBookList\issuedBookController.js" />
+    <Content Include="app\IssuedBookList\issuedBookList.html" />
     <Content Include="app\IssueDetails\IssueBook.html" />
     <Content Include="app\IssueDetails\issueBookController.js" />
     <Content Include="app\userDetails\UserdetailController.js" />

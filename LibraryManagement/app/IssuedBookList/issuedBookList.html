@@ -1,0 +1,29 @@
+﻿<div data-ng-init="getIssuedList()">
+    <div class="container-fluid text-center">
+        <div>
+            <div>
+                <label for="Search User">Search User</label>
+                <input class="searchBar" type="text" placeholder="Search" data-ng-model="issuedBookSearch.UserId">
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <tr>
+                <th>IssueId</th>
+                <th>UserId</th>
+                <th>BookId</th>
+                <th>DateOfIssue</th>
+                <th>DateOfReturn</th>
+                <th>TotalRent</th>
+            </tr>
+            <!--IssueId, UserId, BookId, DateOfIssue, DateOfReturn, TotalRent-->
+            <tr data-ng-repeat="issuedBook in issuedBooks|filter : issuedBookSearch">
+                <td>{{issuedBook.IssueId}}</td>
+                <td>{{issuedBook.UserId}}</td>
+                <td>{{issuedBook.BookId}}</td>
+                <td>{{issuedBook.DateOfIssue}}</td>
+                <td>{{issuedBook.DateOfReturn}}</td>
+                <td>{{issuedBook.TotalRent}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

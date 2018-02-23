@@ -11,11 +11,9 @@
         return $http.get("http://localhost/LibraryManagement.api//odata/Books");
     }
 
-    homefactory.UserName = function (filter) {
 
-        return $http.get("http://localhost/LibraryManagement.api//odata/Users" + filter);
-
-
+    homefactory.getissuedBookList = function () {
+        return $http.get("http://localhost/LibraryManagement.api//odata/Issues");
     }
 
     homefactory.addUser = function (model) {
@@ -29,6 +27,17 @@
     homefactory.addIssuedBook = function (model) {
         return $http.post("http://localhost/LibraryManagement.api//odata/Issues", model);
     }
+
+    homefactory.getUserNameForIssue = function (filter) {
+        return $http.get("http://localhost/LibraryManagement.api//odata/Issues?$expand=User" + filter);
+    }
+
+    homefactory.getBookNameForIssue = function (filter) {
+        return $http.get("http://localhost/LibraryManagement.api//odata/Issues?$expand=Book" + filter);
+    }
+
+
+   
     return homefactory;
 
 });
