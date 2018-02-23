@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="LibraryApp">
+<head>
+    <title>Library Management</title>
+	<meta charset="utf-8" />
+    <link href="asset/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div ng-include="'app/component/header/header.html'"></div>
+    <div ng-view=""></div>
+    <div ng-include="'app/component/footer/footer.html'"></div>
+    
+
+    <!--==========================================Basic Inclusions===================================================-->
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular-local-storage.min.js"></script>
+    <script src="app/app.js"></script>
+    <!--=============================================Controllers===========================================================-->
+    <script src="app/home/homeController.js"></script>
+    <script src="app/home/homeService.js"></script>
+    <script src="app/userDetails/UserdetailController.js"></script>
+    <script src="app/component/header/headerController.js"></script>
+    <script src="app/addUser/addUserController.js"></script>
+    <script src="app/addBook/addBookController.js"></script>
+    <script src="app/BookDetails/bookDetailController.js"></script>
+    <script src="app/IssueDetails/issueBookController.js"></script>
+    <script src="app/userDetails/UserdetailController.js"></script>
+</body>
+</html>

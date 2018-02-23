@@ -1,0 +1,10 @@
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\LibraryManagement.data.dll.config
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\LibraryManagement.data.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\LibraryManagement.data.pdb
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\EntityFramework.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\EntityFramework.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.dll
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.pdb
+E:\Ankita\IISConfigure\LibraryManagement\LibraryManagement.data\obj\Debug\LibraryManagement.data.csprojResolveAssemblyReference.cache

@@ -1,0 +1,32 @@
+﻿<div data-ng-init="getUserList()">
+    <div class="container-fluid text-center">
+        <div>
+            <div>
+                <label for="Search User">Search User</label>
+                <input class="searchBar" type="text" placeholder="Search" data-ng-model="userSearch.UserName">
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <tr>
+                <th>User Id</th>
+                <th>User Name</th>
+                <th>Address</th>
+                <th>TypeOfUser</th>
+                <th>ActiveBooksIssued</th>
+                <th>Phone_Number</th>
+                <th>BooksLeft</th>
+                <th>IsActive</th>
+            </tr>
+            <tr data-ng-repeat="User in Users">
+                <td>{{User.UserId}}</td>
+                <td>{{User.UserName}}</td>
+                <td>{{User.Address}}</td>
+                <td>{{User.TypeOfUser}}</td>
+                <td>{{User.ActiveBooksIssued}}</td>
+                <td>{{User.Phone_Number}}</td>
+                <td>{{User.BooksLeft}}</td>
+                <td>{{User.IsActive}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

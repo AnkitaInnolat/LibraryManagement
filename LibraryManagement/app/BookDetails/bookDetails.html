@@ -1,0 +1,38 @@
+﻿<div data-ng-init="getBookList()">
+
+    <!--BookId int primary key identity(1,1),
+    BookName varchar(255),
+    Author varchar(255),
+    Rent money ,
+    Price money ,
+    Quantity int,
+    IsActive bit not null-->
+    <div class="container-fluid text-center">
+        <div>
+            <div>
+                <label for="Search Book">Search Book</label>
+                <input class="searchBar" type="text" placeholder="Search" data-ng-model="BookSearch.BookName">
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <tr>
+                <th>BookId</th>
+                <th>BookName</th>
+                <th>Author</th>
+                <th>Rent</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>IsActive</th>
+            </tr>
+            <tr  ng-repeat="Book in Books| filter : BookSearch">
+                <td>{{Book.BookId}}</td>
+                <td>{{Book.BookName}}</td>
+                <td>{{Book.Author}}</td>
+                <td>{{Book.Rent}}</td>
+                <td>{{Book.Price}}</td>
+                <td>{{Book.Quantity}}</td>
+                <td>{{Book.IsActive}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
